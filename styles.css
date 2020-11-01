@@ -1,0 +1,253 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+
+}
+
+/* ------------------------------------------------------ */
+/* Grid Box */
+/* ------------------------------------------------------ */
+nav{
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+/* Gray Bar */
+
+.testing{
+    width: 100%;
+    padding: .5em;
+} 
+.testing-desciption{
+    float: left;
+    padding-right: 50px;
+
+}
+.cta .btn {
+    float: right;
+    margin-top: -60px;
+
+}
+
+/* News Letter */
+.newsletter {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+.newsletter .btn{
+    justify-content: center;
+}
+
+.newsletter .form-group{
+    display: inline;
+}
+
+/* ------------------------------------------------------ */
+/* Basic Setup */
+/* ------------------------------------------------------ */
+
+/* First Image*/
+#overview-hero-image1{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1);
+    background: white;
+    object-fit: cover;
+}
+
+/* Second Image */
+#overview-hero-image2{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1);
+    background: white;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Third Image */
+#overview-hero-image3 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1);
+    background: white;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fourth Image */
+#overview-hero-image4 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,.1);
+    background: white;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Fifth Image */
+#overview-hero-image5 {
+    border-radius: 50%;
+    width: 20%;
+    padding: 1px;
+    border: 8px solid transparent;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    float: left;
+    
+}
+
+/* Sixth Image */
+#overview-hero-image6 {
+    border-radius: 50%;
+    width: 20%;
+    padding: 1px;
+    border: 8px solid transparent;
+    display: flex;
+    flex-direction: row;
+    object-fit: cover;
+    float: left;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding-right: 15px; 
+}
+
+#overview-hero-image1{
+    float: left;
+    padding: 15px;
+}
+.overview-hero-text {
+    float: inline-end;
+    padding: 15px;
+}
+
+/* Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 1rem;
+    padding: 20px;
+    
+}
+.card {
+    border-style: groove;
+    border-radius: 4px;
+    padding: .5rem;
+    text-align: center;
+}
+
+/* Alignements*/
+
+.testing {
+    float: left;
+    padding: 15px;
+}
+
+.article-body {
+    padding: 1rem;
+}
+
+/* ------------------------------------------------------ */
+/* Colours and Fonts */
+/* ------------------------------------------------------ */
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
+
+nav {
+    background-color: white;
+    font-size: 18px;
+}
+
+.Header {
+    color: #6b7280;
+}
+
+.Header:hover {
+    color: #5A67D8;
+}
+
+.overview-hero {
+    background-color: #E2E8F0;
+}
+
+.LHeader {
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.card-header {
+    color: #48BB78;
+    font-size: 21px;
+}
+.testing {
+    background-color: #4A5568;
+    color: white;
+}
+.cta {
+    border-radius: 5px;
+}
+
+.stories h2{
+    color: #5A67D8;
+    padding-top: .5rem;
+}
+
+.rStories1 {
+    color: #5A67D8
+}
+.article-body h3{
+    font-size: 18px;
+}
+
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+}
+.cta .btn{
+    background-color: #48BB78;
+}
+
+.btn {
+    background-color: #5A67D8;
+}
+footer {
+    background-color: #4A5568;
+    color: white;
+}
